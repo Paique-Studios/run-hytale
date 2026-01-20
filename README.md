@@ -1,6 +1,10 @@
 # Hytale Server Gradle Plugin
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D41SN93D)
 
+---
+Hey, take a look on my template for Hytale mods!
+https://github.com/Paique-Studios/hytale-mod-template
+---
 
 This plugin helps manage a local Hytale server for mod development. It handles server download, setup, and execution within IntelliJ IDEA.
 
