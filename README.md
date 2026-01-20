@@ -63,26 +63,7 @@ hytaleServer {
 
 ## Debugging with IntelliJ IDEA
 
-The server runs in a separate process, so the standard "Debug" button on the Gradle task won't attach to the server automatically. Instead, use **Remote Debugging**:
-
-1.  **Create a Remote Debug Configuration**:
-    *   Go to **Run -> Edit Configurations...**
-    *   Click **+** and select **Remote JVM Debug**.
-    *   Name it "Hytale Server Debug".
-    *   Set **Port** to `5005`.
-    *   Click **OK**.
-
-2.  **Start the Server in Debug Mode**:
-    *   Run the Gradle task with the `debug` property:
-        ```bash
-        ./gradlew runHytaleServer -Pdebug
-        ```
-    *   The server will start and wait with the message: `Listening for transport dt_socket at address: 5005`.
-
-3.  **Attach the Debugger**:
-    *   Select your "Hytale Server Debug" configuration in IntelliJ.
-    *   Click the **Debug** button (bug icon).
-    *   The server will resume execution, and your breakpoints will effectively pause the game loop.
+Just run runHytaleServer task as debug on IntelliJ IDEA.
 
 ## Authenticating the Server
 
